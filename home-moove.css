@@ -1,0 +1,93 @@
+/* ESTILO TEXTOS */
+h1, h2, h3, h4, h5, h6 {color:#123370;}
+
+/* ESTILO BOTONES */
+.btn-secondary {
+    color: #ffffff !important;
+    background-color: #a12520 !important;
+    border-color:: #a12520 !important;
+}
+
+/* OCULTA EL ENCABEZADO */
+#page-header {display:none;}
+
+/* DA COLOR A LOS MENU DE ARRIBA Y SUS ITEMS */
+.secondary-navigation{background-color:#123370}
+.navbar .fixed-top .navbar-light .bg-white .navbar-expand .shadow {background: linear-gradient(30deg, #c10f41, #233b88);}
+.navbar.fixed-top {background: linear-gradient(30deg, #c10f41, #233b88);}
+.navbar.fixed-top .primary-navigation .navigation .nav-link {color:#fff};
+#usernavigation .input-group label.text-primary {
+    color: #ffffff !important;
+}
+.navbar-nav .popover-region .icon {color:#fff;}
+
+/* QUITA EL COLOR DE FONDO DE LAS FILAS */
+.row {background-color: transparent !important;}
+
+/* ANCHO COMPLETO PARA LOS ELEMENTOS ATTO */
+.c4l-keyconcept, .c4l-tip, .c4l-reminder, .c4l-attention, .c4l-dodontcards-do, .c4l-dodontcards-dont, .c4l-readingcontext, .c4l-expectedfeedback, .c4l-allpurposecard, .c4l-learningoutcomes {
+        max-width: 98% !important;
+}
+
+/* ESTILO PARA LOS TABS DE LA SECCIÓN RECURSOS */
+.TabbedPanelsTab {background-color:#eeeeee !important;color:#003274 !important;}
+.TabbedPanelsTabSelected {
+    background-color: #003274 !important;
+    border-bottom: 1px solid #EEE;
+    color: #fff !important;
+}
+
+/* ESTILOS PARA EL FOOTER */
+#page-footer .copyright {display:none !important;}
+#page-footer {background: linear-gradient(30deg, #c10f41, #233b88);}
+.supportemail {display:none !important;}
+.mobilelink {display:none !important;}
+.resetpagetour {display:none !important;}
+.btn-footer-popover {display:none !important;}
+
+/* MENU HAMBURGUESA PARA SECCIONES EN MOBILE */
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 30px; /* ancho del icono */
+  height: 22px; /* alto del icono */
+  position: relative;
+  cursor: pointer;
+}
+
+/* Primera barra (superior) */
+.navbar-toggler-icon::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 3px; /* grosor de las barras */
+  background-color: #123370; /* color de las barras */
+  border-radius: 4px; /* bordes redondeados de las barras */
+  transition: all 0.3s ease;
+}
+
+/* Segunda barra (media) */
+.navbar-toggler-icon span {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #123370;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  transform: translateY(-50%);
+}
+
+/* Tercera barra (inferior) */
+.navbar-toggler-icon::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #123370;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
