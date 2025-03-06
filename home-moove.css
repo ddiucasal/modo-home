@@ -1,5 +1,8 @@
 /* ESTILO TEXTOS */
 h1, h2, h3, h4, h5, h6 {color:#123370;}
+h1, .h1, h2, .h2, .path-calendar .maincalendar .calendar-controls .current, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    color: #123370;
+}
 
 /* ESTILO BOTONES */
 .btn-secondary {
@@ -91,3 +94,9 @@ h1, h2, h3, h4, h5, h6 {color:#123370;}
   border-radius: 4px;
   transition: all 0.3s ease;
 }
+
+/*OCULTAR UI CSS*/
+/* Ocultar el título del header */
+.block_uicustomcss h3 {display: none !important;}
+/* Eliminar la sombra de toda la sección */
+.block_uicustomcss {box-shadow: none;background-color:transparent !important;}
