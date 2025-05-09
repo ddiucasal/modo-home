@@ -115,7 +115,7 @@ h1, .h1, h2, .h2, .path-calendar .maincalendar .calendar-controls .current, h3, 
 /*HACER QUE SI EL TITULO DE LA SECCION NO ENTRA EN UNA LINEA EN LA NAVEGACIÓN, HAGA UN SALTO DE LINEA*/
 .text-truncate{ white-space: normal !important;}
 
-/*FUERZA EL LOGO DEL MOODLE PARA QUE SIEMPRE SEA EL LOGO BLANCO INDEPENDIENTEMENTE DEL LOGO DEL TEMPLATE*/
+/* FUERZA EL LOGO DEL MOODLE PARA QUE SIEMPRE SEA EL LOGO BLANCO INDEPENDIENTEMENTE DEL LOGO DEL TEMPLATE */
 a.navbar-brand img.logo {
     content: url("https://cdn.jsdelivr.net/gh/ddiucasal/modo-home/logo-blanco.png") !important;
 }
