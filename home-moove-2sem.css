@@ -119,3 +119,7 @@ h1, .h1, h2, .h2, .path-calendar .maincalendar .calendar-controls .current, h3, 
 a.navbar-brand img.logo {
     content: url("https://cdn.jsdelivr.net/gh/ddiucasal/modo-home/logo-blanco.png") !important;
 }
+
+body {
+    outline: none; /* cambio forzado */
+}
