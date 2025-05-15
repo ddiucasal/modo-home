@@ -98,7 +98,10 @@ h1, .h1, h2, .h2, .path-calendar .maincalendar .calendar-controls .current, h3, 
 
 /*OCULTAR UI CSS*/
 /* Ocultar el título del header */
+.block_uicustomcss h2 {display: none !important;}
 .block_uicustomcss h3 {display: none !important;}
+.block_uicustomcss h4 {display: none !important;}
+.block_uicustomcss h5 {display: none !important;}
 /* Eliminar la sombra de toda la sección */
 .block_uicustomcss {box-shadow: none;background-color:transparent !important;}
 
