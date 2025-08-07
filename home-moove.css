@@ -103,6 +103,11 @@ a.navbar-brand img.logo {
     content: url("https://cdn.jsdelivr.net/gh/ddiucasal/modo-home/logo-blanco.png") !important;
 }
 
+.moremenu .nav-link:hover, .moremenu .nav-link:focus {
+    border-color: transparent;
+    background-color: transparent;
+}
+
 /*OCULTAR UI CSS*/
 /* Ocultar el título del header */
 .block_uicustomcss h3 {display: none !important;}
