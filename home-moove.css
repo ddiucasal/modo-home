@@ -103,10 +103,21 @@ a.navbar-brand img.logo {
     content: url("https://cdn.jsdelivr.net/gh/ddiucasal/modo-home/logo-blanco.png") !important;
 }
 
+/* DESACTIVA EL FONDO BLANCO AL HACER HOVER DEL MENU PRINCIPAL DE MOVE*/
 .moremenu .nav-link:hover, .moremenu .nav-link:focus {
     border-color: transparent;
     background-color: transparent;
 }
+
+/*ESTILOS ONTOPIC */
+.nextsection a {color: #ffffff !important;background-color: #c1272e;
+    padding: 20px;
+    border-radius: 15px;}
+.prevsection a {color: #ffffff !important;background-color: #c1272e;
+    padding: 20px;
+    border-radius: 15px;}
+.larrow{padding-right:5px;}
+.rarrow{padding-left:5px;}
 
 /*OCULTAR UI CSS*/
 /* Ocultar el título del header */
